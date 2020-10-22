@@ -34,7 +34,7 @@ RUN GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx \
     github.com/projectdiscovery/subfinder/v2/cmd/subfinder \
     github.com/lc/gau
 
-RUN GO111MODULE=on go get -u -v github.com/projectdiscovery/naabu/cmd/naabu
+RUN GO111MODULE=on go get -u -v github.com/projectdiscovery/naabu/v2/cmd/naabu
 
 # Copy requirements
 COPY ./requirements.txt /tmp/requirements.txt
